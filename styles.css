@@ -1,0 +1,71 @@
+/* CSS styles for the signup form */
+
+body {
+    font-family: Arial, sans-serif; /* Set font family for better readability */
+    background-color: #f2f2f2; /* Set background color */
+    margin: 0; /* Remove default body margin */
+    display: flex; /* Use flexbox to center the container vertically */
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    min-height: 100vh; /* Ensure the body covers the entire viewport height */
+
+    background-image: url('background.jpeg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport with the background image */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    width: 90%; /* Set width to 90% of the viewport width */
+    max-width: 30vw; /* Set maximum width for the form container */
+    height: 90vh; /* Set height to 90% of the viewport height */
+    max-height: 50vh; /* Set maximum height for the form container */
+    padding: 50px; /* Add padding for spacing */
+    background-color: rgba(255, 240, 240, 0.7); /* Set background color with 70% opacity */
+    border-radius: 25px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 230px rgba(0, 0, 0, 1); /* Add box shadow for depth */
+    display: flex; /* Use flexbox to center content vertically */
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+}
+
+h2 {
+    font-size: 120px; /* Increase font size for the heading */
+    margin-bottom: 100px; /* Add margin bottom for spacing */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Add margin bottom for spacing between form elements */
+}
+
+.form-group label {
+    display: block; /* Make label elements block-level for proper alignment */
+    font-weight: bold; /* Make label text bold */
+    font-size: 65px; /* Increase font size for labels */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group button {
+    width: 100%; /* Set input and button width to fill the container */
+    padding: 35px; /* Add padding for spacing */
+    border: 2px solid #ccc; /* Add border for visual separation */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-size: 45px; /* Increase font size for input fields and button */
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.form-group button {
+    background-color: #007bff; /* Set background color for button */
+    color: #ffffff; /* Set text color for button */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.form-group button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
